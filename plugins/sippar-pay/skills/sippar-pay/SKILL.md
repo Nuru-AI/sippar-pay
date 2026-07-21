@@ -110,11 +110,11 @@ curl -X DELETE https://sippar.network/mcp/tools/pay/session/<id>
 
 The session budget and expiry are enforced on-chain; per-draw and per-session caps are server-enforced, with current values in the manifest.
 
-## Pay pay.sh services from other chains (PaySphere)
+## Pay pay.sh services from other chains (Sippar Marketplace)
 
-pay.sh is the Solana Foundation's machine-payment marketplace, and its services settle on Solana. Sippar's PaySphere relay lets an agent holding stablecoins on another chain (Base, Arbitrum, Optimism, Polygon, BNB Chain, Ethereum, Solana, Stellar) pay those services without bridging: the agent pays on its home chain, Sippar settles the Solana leg, and the agent gets the response with receipts for both legs.
+pay.sh is the Solana Foundation's machine-payment marketplace, and its services settle on Solana. Sippar Marketplace, Sippar's cross-chain relay into pay.sh, lets an agent holding stablecoins on another chain (Base, Arbitrum, Optimism, Polygon, BNB Chain, Ethereum, Solana, Stellar) pay those services without bridging: the agent pays on its home chain, Sippar settles the Solana leg, and the agent gets the response with receipts for both legs.
 
-PaySphere is in private beta. The tools (`discover`, `quote`, `pay-direct`, `pay-with-identity`) live at `https://sippar.network/mcp/tools/paysphere/` and need an unlock token; request one at contact@nuru.ai with a line about your use case.
+Sippar Marketplace is in private beta. The tools (`discover`, `quote`, `pay-direct`, `pay-with-identity`) live at `https://sippar.network/mcp/tools/paysphere/` and need an unlock token; request one at elad@sippar.network with a line about your use case.
 
 ## Spend safety
 
@@ -136,7 +136,7 @@ PaySphere is in private beta. The tools (`discover`, `quote`, `pay-direct`, `pay
 ## Access levels
 
 - **Public, no token**: everything under `https://sippar.network/mcp/tools/pay/` (manifest, wallet lookup, pay, serve, sessions), rate-limited.
-- **Token-gated**: the PaySphere relay tools and the direct backend API for approved integrators (higher limits, batch settlement, cross-chain relay). Request access at contact@nuru.ai.
+- **Token-gated**: the Sippar Marketplace relay tools and the direct backend API for approved integrators (higher limits, batch settlement, cross-chain relay). Request access at elad@sippar.network.
 
 ## Links
 
