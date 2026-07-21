@@ -1,0 +1,22 @@
+{
+  "name": "sippar",
+  "owner": {
+    "name": "Sippar",
+    "url": "https://sippar.network"
+  },
+  "plugins": [
+    {
+      "name": "sippar-pay",
+      "source": "./plugins/sippar-pay",
+      "description": "The agent payment skill that needs no private key.",
+      "version": "1.0.0",
+      "keywords": [
+        "x402",
+        "payments",
+        "mpp",
+        "agent-commerce",
+        "micropayments"
+      ]
+    }
+  ]
+}
