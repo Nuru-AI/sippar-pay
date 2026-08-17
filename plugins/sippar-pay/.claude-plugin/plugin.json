@@ -1,6 +1,6 @@
 {
   "name": "sippar-pay",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Pay for x402/MPP services from a keyless (Sippar-managed) agent wallet with a server-enforced spend cap.",
   "author": { "name": "Sippar", "url": "https://sippar.network" }
 }
